@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" id="index">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skwinkles</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="shortcut icon" href="images/skwinkles logo.png" type="image/x-icon" />
+</head>
+<body id="indexBod">
+    <header>
+        <section id="socialMediaHeader">
+            <div class="socialMediaHeader">
+                <p>Skwinkles!</p>
+                <img src="images/facebook.png" height="20" alt="Facebook logo">
+                <img src="images/instagram.png" height="20" alt="Instagram logo">
+            </div>
+        </section>
+        
+        <section id="menu01">
+            <div class="mainMenu">
+                <img src="images/skwinkles logo02.png" height="50" alt="4Revolution Logo">
+                <nav>
+                    <ul>
+                        <li><a href="" title="Promotion details">Products</a></li>
+                        <li><a href="" title="Learn more about us">About us</a></li>
+                        <li><a href="" title="Rate and comment our products">Ratings</a></li>
+                        <li><a href="" title="Buying support">Support</a></li>
+                        <li><a href="" title="Corporate info">Info</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <aside id="sidebar">
+        <div class="searchBox">
+            <input type="text" placeholder="Search..">
+            <button type="submit"><img src="../Assignment03/images/buscar.png" alt="search" width="20px"></button>
+        </div>
+        
+        <div class="sideMenu">
+            <nav>
+                <ul>
+                    <li><a href="" title="Promotion details">Learn more about us</a></li>
+                    <li><a href="" title="Learn more about us">Our Products</a></li>
+                    <li><a href="" title="Rate and comment our products">How are they made?</a></li>
+                    <li><a href="" title="Buying support">Carrers</a></li>
+                    <li><a href="" title="Corporate info">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <main>
+        <section id="upper">
+            <h2>Skwinkles!</h2>
+            <h3 class="slogan">Proudly weird!</h3>
+        </section>
+        <section id="middle">
+            <h3>Enjoy the Fun!!!</h3>
+            <p id="announcement">Opening discounts until December 1st!</p>
+        </section>
+        <section id="products">
+            <div class="firstWatch">
+                <img src="images/salsagheti2.jpg" alt="salsagheti" height="150"/>
+                <h4>SALSAGHETI</h4>
+                <p class="regularPrice"><strong>$9.00</strong></p>
+                <p class="discount">$6.99</p>
+                <!-- buy button -->
+                <button class="buy-button">Buy</button>
+            </div>
+            <div class="secondWatch">
+                <img src="images/rellenos02.jpg" alt="rellenos" height="150">
+                <h4>RELLENOS</h4>
+                <p class="regularPrice"><strong>$7.00</strong></p>
+                <p class="discount">$5.99</p>
+                <!-- buy button -->
+                <button class="buy-button">Buy</button>
+            </div>
+            <div class="firstWatch">
+                <img src="images/classics.jpg" alt="Classic Skwinkles" height="150">
+                <h4>CLASSIC</h4>
+                <p class="regularPrice"><strong>$8.00</strong></p>
+                <p class="discount">$6.49</p>
+                <!-- buy button -->
+                <button class="buy-button">Buy</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contactForm">
+            <form method="post" action="add.php" class="myForm">
+                <h2>CONTACT US! </h2>
+                <div class="form-group">
+                    <label for="input1" class="col-sm-2 control-label">YOUR EMAIL</label>
+                    <div class="col-sm-10">
+                        <input type="email" name="email" class="form-control" id="input1" placeholder="example@mail.com" >
+                    </div>
+                </div>
+                    <div class="form-group">
+                        <label for="input2" class="col-sm-2 control-label">FULL NAME</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="firstName" class="form-control" id="input2" placeholder="Your name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                    <label for="input4" class="col-sm-2 control-label">PURPOSE</label>
+                    <div class="col-sm-10">
+                        <select name="category" class="form-control">
+                            <option value="genInfo">General Info</option>
+                            <option value="pricing">Pricing</option>
+                            <option value="carrers">Carrers</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="input5" class="col-sm-2 control-label">SUBJECT</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="Subject" class="form-control" id="input5" placeholder="Write your subject here...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="input6" class="col-sm-2 control-label">YOUR MESSAGE</label>
+                    <div class="col-sm-10">
+                        <textarea name="message" id="message" cols="50" rows="5" placeholder="Write your message here..."></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                        <input type="reset" name="Submit " value="SEND">
+                        <input type="reset" class="resetButton" value="CLEAR">
+                </div>
+            </form>
+        </div>
+        <div class="footerLogo">
+            <img src="images/skwinkles logo02.png" alt="footer-logo">
+        </div>
+        <div class="footerContact">
+            <p>Addres: Av. Gral. Francisco Morazán, Sin Nombre de Col 4, 66358 Cdad. Santa Catarina, N.L., México</p>
+            <p>Phone number: +52 81 1546 7372</p>
+            <p>Email: info@skwinkles.com</p>
+        </div>
+        <div class="footerName">
+            <p><small>©Skwinkles Mexico Inc.</small></p>
+        </div>
+    </footer>
+</body>
+</html>
